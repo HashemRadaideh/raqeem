@@ -21,7 +21,8 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
 
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
-    implementation("com.fasterxml.jackson.core:jackson-core:2.18.0-rc1")
+    implementation("com.fasterxml.jackson.core:jackson-core:2.17.2")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
